@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Octokit } from "@octokit/rest";
 
 import { Grid, Avatar, Link, Typography } from "@material-ui/core";
-// import { makeStyles } from "@material-ui/core/styles";
 
 const octokit = new Octokit();
 
