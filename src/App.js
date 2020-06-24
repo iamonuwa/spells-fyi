@@ -19,6 +19,7 @@ import Header from './components/Header';
 import SupportedPlatforms from './components/SupportedPlatforms';
 import GitCoin from './components/GitCoin';
 import { getFilteredPlatforms, FilteredPlatformsContext } from './components/helpers';
+import Contributors from './components/Contributors';
 
 // Create an http link:
 const httpLink = new HttpLink({
@@ -203,6 +204,7 @@ function App() {
         <ApolloProvider client={client}>
           <Header />
           <SupportedPlatforms />
+          <Contributors />
           <GitCoin />
           <GridLayout />
         </ApolloProvider>
